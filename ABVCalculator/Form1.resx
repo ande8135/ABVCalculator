@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="descriptionBox.Text" xml:space="preserve">
+    <value>Gravity readings should be performed using a hydrometer.
+
+These readings are expressed as "1.xxx".
+
+Original Gravity should be higher than Final Gravity.
+
+Alcohol by Volume will be expressed as a percentage.</value>
+  </data>
 </root>

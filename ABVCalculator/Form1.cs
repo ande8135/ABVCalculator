@@ -16,11 +16,8 @@ namespace ABVCalculator
         {
             InitializeComponent();
         }
-        
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
 
-        }
+        
 
         private void calcTotalButton_Click(object sender, EventArgs e)
         {
@@ -29,7 +26,5 @@ namespace ABVCalculator
             worker.Final = Double.Parse(fgInput.Text);
             abvOutput.Text = worker.CalculateABV().ToString();
         }
-
-
     }
 }

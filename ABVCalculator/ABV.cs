@@ -15,9 +15,11 @@ namespace ABVCalculator
         public double Original { get; set; }
         public double Final { get; set; }
 
-        public double CalculateABV()
+        public decimal CalculateABV()
         {
-            return ((Original - Final) * 131.25);
+            var abv = decimal.Parse(((Original - Final) * 131.25).ToString());
+            
+            return decimal.Round(abv, 2);
         }
     }
 }
